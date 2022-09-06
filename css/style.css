@@ -1,0 +1,367 @@
+body{font-family: 'Poppins', sans-serif;}
+/* start navbar */
+.navbar{background-color: #fff !important;}
+.navbar .navbar-brand img { width: 85%; padding-top: 5px; }
+.navbar ul li a{color:hsl(255, 11%, 22%) }
+.navbar ul li a:hover{ color: hsl(260, 8%, 14%); font-weight: 500; }
+.navbar form .login{color: hsl(257, 7%, 63%); font-weight: 500;}
+.navbar form .SignUp { 
+    color: white;
+    background: hsl(180, 66%, 49%); 
+    border-radius:20px;
+    -webkit-border-radius:20px; 
+    -moz-border-radius:20px; 
+    -ms-border-radius:20px; 
+    -o-border-radius:20px;
+    font-weight: 500;
+}
+.navbar form .SignUp:hover { background-color: hsl(180, 62%, 75%) }
+/* End navbar */
+/* start footer */
+.footer{ margin-top: 70px; margin-left: 50px; overflow-X: hidden;}
+.footer .details{   
+    margin-left: -25px;
+    margin-top: 95px;   
+}
+.footer .details h1 { font-weight:700; max-width: 450px; color: hsl(260, 8%, 14%);}
+.footer .details p { font-weight: 500; max-width: 450px; color: hsl(257, 7%, 63%);}
+.footer .details button {
+    width: 140px;
+    font-weight: 500;
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.footer .details button:hover { background-color: hsl(180, 62%, 75%); }
+.footer .Working {
+    float: right;
+    max-width: 655px;
+    margin-right: -75px;
+    float: right;
+}
+/* End footer*/
+/* Start statistics */
+.statistics {
+    background-color: hsla(0, 0%, 75%, 0.274);
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.statistics .shortenLink {
+    background-image: url(/images/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    height: 120px;
+    padding: 45px;
+    padding-left: 45PX;
+    width: 90%;
+    margin-left: 50px;
+    position: relative;
+    margin-bottom: -60px;
+    top: -60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.statistics .shortenLink form input {
+    float: left; 
+    font-family: 'Poppins', sans-serif;   
+    max-width: 750px;
+}
+.statistics .shortenLink form .faild {border: 1px solid  hsl(0, 87%, 67%) ;}
+.statistics .shortenLink form .faild::placeholder { color:  hsl(0, 87%, 67%); }
+.statistics .shortenLink form .required {
+    font-size: 10px;
+    color: hsl(0, 87%, 67%);
+    float: left;
+    display: none;
+    position: absolute;
+    left: 46px;
+    bottom: 4px;
+}
+.statistics .shortenLink form button {
+    width: 140px;
+    font-weight: 500;
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    margin-left: 10px;
+}
+.statistics .shortenLink form button:hover,
+.statistics .shorten button:hover { background-color:hsl(180, 62%, 75%) }
+.statistics .shorten {
+    height: 60px;
+    width: 91%;
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.statistics .shorten p {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.statistics .shorten button {
+    float: right;
+    margin-top: 9px;
+    background: hsl(180, 66%, 49%);
+    color: #fff;
+    margin-right: 25px;
+}
+.statistics .shorten a {
+    position: absolute;
+    right: 120px;
+    top: 15px;
+    color: hsl(180, 66%, 49%);
+}
+.statistics .container > h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    font-weight: 700;}
+.statistics .container > p {
+    color: hsl(257, 7%, 63%);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+/* End statistics */
+/* start Row Content */
+.statistics .content-1,
+.statistics .content-2,
+.statistics .content-3{ 
+    background-color: #fff;
+    padding-left: 30px;
+    padding-bottom: 20px; 
+    border-radius:10px ; 
+    -webkit-border-radius:10px ; 
+    -moz-border-radius:10px ; 
+    -ms-border-radius:10px ; 
+    -o-border-radius:10px ;}
+.statistics .content-1 img, 
+.statistics .content-2 img, 
+.statistics .content-3 img { width: 95%;}
+.statistics .content-1 > .icon, 
+.statistics .content-2 > .icon, 
+.statistics .content-3 > .icon{
+    position: relative;
+    top: -30px;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    background-color:hsl(257, 27%, 26%);
+    border-radius: 50%;}
+.statistics .content-1 p, 
+.statistics .content-2 p, 
+.statistics .content-3 p {
+    color: hsl(257, 7%, 63%);
+    font-weight: 500;
+}
+.statistics .content-1 >h5, 
+.statistics .content-2 >h5, 
+.statistics .content-3 >h5{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.statistics .content-1 hr, 
+.statistics .content-2 hr, 
+.statistics .content-3 hr {
+    width: 32px;
+    border-top: 9px solid hsl(180, 66%, 49%);
+    position: relative;
+    left: 176px;
+    top: -80px;
+}
+.statistics .content-2 { 
+      margin-top: 50px;
+}
+.statistics .content-3 { 
+    margin-top: 100px;
+}
+/* End  Row Content */
+/* Start boost Link */
+.boost{
+    background-image: url(./images/bg-boost-desktop.svg);
+    padding-top: 30px;
+    background-color: hsl(257, 27%, 26%);
+    height: 205px;
+}
+.boost h3{
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.boost button{
+    margin-top: 35px;
+    width: 140px;
+    font-weight: 500;
+    color: #fff;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+.boost button:hover {
+    background:hsl(180, 62%, 75%);
+    color: #fff;
+}
+/* End boost*/
+/* start header */
+.header{background-color: hsl(260, 8%, 14%) ;padding-top: 80px;padding-bottom: 80px;}
+.header .row .logo {
+    font-weight: 700;
+    color: #fff;
+}
+.header .row div > h5 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.header .row ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+.header .row ul li a {
+    color: hsl(257, 7%, 63%);
+    text-decoration: none;
+    font-size: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.header .row ul li a:hover {
+    color: hsl(180, 66%, 49%);
+}
+.header .row .links ul li{
+    float: left;
+    padding-left: 24px;
+}
+.header .row .links ul li a{color: #fff;}
+.header .row .links ul li a:hover {
+    color: hsl(180, 66%, 49%);
+}
+/* end header */
+/* start Media Query For Responive  */
+@media only screen and (min-width:320px) and (max-width:805px) {
+    .navbar-toggler{border: none;}
+    /* .navbar-toggler{border: none;    position: fixed;
+        right: 15px;
+        top: 10px;}
+    ..navbar-brand{ position: fixed; left: 15px; top: 10px;} */
+    .navbar-collapse {
+        background-color: hsl(257, 27%, 26%) ;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    .navbar ul li a,
+    .navbar form .login, 
+    .navbar form .SignUp{color:#fff !important; text-align: center; }
+    .navbar hr {
+        border-top: 1px hsla(257, 7%, 63%, 0.28) solid ;
+    }                                                                               
+    .navbar form .login, 
+    .navbar form .SignUp { width: 100%;}
+    .footer{text-align: center;}
+    .footer .details h1{font-size: 30px;}
+    .statistics p{ padding: 0 !important; padding-left: unset;}
+    .statistics .shortenLink {
+        background-image: url(./images/bg-shorten-mobile.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-position-y: initial;
+        height: 145px;    
+        margin-left: 6%;    
+        top: -70px;
+        padding-left: 25PX;
+        padding-right: 25px;
+        padding-top: 25px;
+    }
+    .statistics .shorten p {display: none}
+    .statistics .shortenLink button{
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    .statistics .content-1,
+    .statistics .content-2,
+    .statistics .content-3 {
+        margin-top: 100px;
+        padding-right: 30px;
+    }
+    .statistics .content-1 > .icon, 
+    .statistics .content-2 > .icon, 
+    .statistics .content-3 > .icon {
+        left: 38%;
+    }
+    .statistics .content-1 hr,
+    .statistics .content-2 hr {   
+        border-top: 9px solid hsl(180, 66%, 49%);
+        width: 90px;
+        left: 0;
+        top: 85px;
+        transform: rotate(90deg);
+    }
+    .boost{
+        background-image: url(./images/bg-boost-mobile.svg);
+        padding-top: 75px;
+        height: 290px;
+    }
+    .header .row div > ul li a{
+        float: unset;
+        margin-left: -40px;
+    }
+    .header .row .links ul li a{padding-left: 45px;}
+    .logo{
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .statistics .shorten{left: 25px;}
+    .footer .container, 
+    .footer .container-md, 
+    .footer .container-sm { max-width: fit-content; }
+}
+/* start Media Query For Responive  with larg screen phone */
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape){
+    .statistics .shorten p {display: none}
+    .statistics .content-1 > .icon, 
+    .statistics .content-2 > .icon, 
+    .statistics .content-3 > .icon {
+        left: 43%;
+    }
+}
+/* start Media Query For Responive  for larg screen like tablt */
+@media only screen and (min-width:720px) and (max-width:950px){
+
+    .navbar-collapse {
+        background-color: hsl(257, 27%, 26%) ;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+    }
+    .navbar form .login, 
+    .navbar form .SignUp { width: 100%;}
+    .footer{text-align: center;}
+    .footer .details{
+        margin-left: -25px;
+        margin-top: 451px;
+    }
+    .statistics .shorten{left: 25px;}
+    .footer .container, 
+    .footer .container-md, 
+    .footer .container-sm { max-width: fit-content; }
+    .statistics p{ padding: 0 !important; padding-left: unset;}
+    .statistics .shortenLink{ height: 170px; }
+    .statistics .shortenLink button{
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    
+}
